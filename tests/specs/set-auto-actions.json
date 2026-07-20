@@ -1,0 +1,20 @@
+[
+  {
+    "name": "/set_auto_actions",
+    "steps": [
+      {
+        "expect": [
+          {
+            "method": "sendMessage",
+            "payload": {
+              "text": "Configure which automatic actions are active and their thresholds"
+            }
+          }
+        ],
+        "send": {
+          "text": "/set_auto_actions"
+        }
+      }
+    ]
+  }
+]
